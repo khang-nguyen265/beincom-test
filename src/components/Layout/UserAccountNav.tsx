@@ -23,7 +23,7 @@ const UserAccountNav = () => {
       }
       {
         isAuth && (
-          <UserButton afterSignOutUrl="/" />
+          <UserButton afterSignOutUrl="/sign-in" />
         )
       }
 
