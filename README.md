@@ -75,6 +75,16 @@ Certainly! Here's the updated section for setting up the development server and 
    To have  NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY, CLERK_SECRET_KEY
    use need to create Clerk app and follow document https://clerk.com/docs/quickstarts/nextjs
 
+   To get the NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY, you can do the following:
+   1. Goto https://clerk.com/
+   2. Go to the Clerk Dashboard
+   3. Select API Keys in the navigation sidebar
+   4. Copy the Clerk publishable key in the Quick Copy section
+   5. Paste the key into the .env.local file
+   The final result should look like this: `.env.local. NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=YOUR_PUBLISHABLE_KEY CLERK_SECRET_KEY=YOUR_SECRET_KEY
+
+   Don't worry I have deploy for testing: https://beincom-test.vercel.app
+
    
    **Note**: Ensure that you don't commit the `.env` file to your version control system, as it may contain sensitive information.
 ```
