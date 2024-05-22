@@ -25,8 +25,8 @@ This is a Next.js project that demonstrates how to handle posts using the JSONPl
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/nextjs-jsonplaceholder-posts.git
-   cd nextjs-jsonplaceholder-posts
+   git clone  git@github.com:your-username/beincom-test.git
+   cd beincom-test
    ```
 
 2. Install dependencies:
