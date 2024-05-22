@@ -57,6 +57,21 @@ Certainly! Here's the updated section for setting up the development server and 
    ```bash
    yarn dev
    ```
+### Running Unit Tests
+
+Run the unit tests using the following command:
+
+   ```bash
+   npm test
+   ```
+
+   or
+
+   ```bash
+   yarn test
+   ```
+
+   This command will execute all unit tests in the application and display the test results.
 
 ### Setting Up Local Environment
 
@@ -87,7 +102,6 @@ Certainly! Here's the updated section for setting up the development server and 
 
    
    **Note**: Ensure that you don't commit the `.env` file to your version control system, as it may contain sensitive information.
-```
 
 
 ### Running the Development Server

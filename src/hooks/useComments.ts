@@ -28,7 +28,6 @@ export const useComments = (postId: number) => {
 
   const addComment = (content: string) => {
 
-    console.log(user?.user?.emailAddresses)
     
     const newComment: Comment = {
       id: comments.length,

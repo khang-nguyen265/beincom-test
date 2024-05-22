@@ -11,7 +11,6 @@ interface PostDetailProps {
 
 const PostDetail: FC<PostDetailProps> = ({ post }) => {
   const { addComment, comments, loading } = useComments(post.id);
-  console.log("comments:", comments)
 
 
   return (
